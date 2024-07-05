@@ -5,6 +5,7 @@ import pandas as pd
 df = pd.read_csv('Free-to-play games.csv')
 # что есть в таблице
 print(df.describe())
+print(df.info())
 # первые 5 строк
 print(df.head())
 
